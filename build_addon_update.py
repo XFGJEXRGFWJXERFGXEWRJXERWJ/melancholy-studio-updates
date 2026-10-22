@@ -1,4 +1,4 @@
-"""Build one versioned addon ZIP + update.json. Python 3.10+, no Blender needed."""
+"""Build the single replaceable melancholy_studio.zip + update.json."""
 import argparse
 import ast
 import hashlib
@@ -15,7 +15,7 @@ def build(source, output, notes):
     tree = ast.parse((source / '__init__.py').read_text(encoding='utf8'))
     meta = next(ast.literal_eval(n.value) for n in tree.body if isinstance(n, ast.Assign) and any(isinstance(t, ast.Name) and t.id == 'bl_info' for t in n.targets))
     version = meta['version']
-    name = 'melancholy_studio_blender_' + '.'.join(map(str, version)) + '.zip'
+    name = 'melancholy_studio.zip'
     output.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(output / name, 'w', zipfile.ZIP_DEFLATED) as archive:
         for file in sorted(source.rglob('*')):

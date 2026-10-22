@@ -4,14 +4,14 @@
   "version": [
     1,
     2,
-    0
+    1
   ],
   "blender_min": [
     4,
     2,
     0
   ],
-  "url": "https://raw.githubusercontent.com/XFGJEXRGFWJXERFGXEWRJXERWJ/melancholy-studio-updates/main/melancholy_studio_blender_1.2.0.zip",
-  "sha256": "2873e6bb7cd38e8c99bb92566532be0892a34baa0a29c31d75ed2a919cb97f87",
-  "notes": "Материалы DragonFF: освещение, цвет, MatFX, отражения, UV Animation и pipeline. Исправлено обеление цветов вершин при экспорте изменённой сетки."
+  "url": "https://raw.githubusercontent.com/XFGJEXRGFWJXERFGXEWRJXERWJ/melancholy-studio-updates/main/melancholy_studio.zip",
+  "sha256": "189994111d7ebc1f7e14e3de97ce9a042985ecae732c1bcd4202643bff94adeb",
+  "notes": "1.2.1: один melancholy_studio.zip без версии в имени; проверка обновлений по текущему коммиту GitHub без устаревшего raw/main."
 }
