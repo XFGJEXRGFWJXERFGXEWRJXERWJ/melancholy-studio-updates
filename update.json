@@ -4,7 +4,7 @@
   "version": [
     1,
     2,
-    1
+    2
   ],
   "blender_min": [
     4,
@@ -12,6 +12,6 @@
     0
   ],
   "url": "https://raw.githubusercontent.com/XFGJEXRGFWJXERFGXEWRJXERWJ/melancholy-studio-updates/main/melancholy_studio.zip",
-  "sha256": "189994111d7ebc1f7e14e3de97ce9a042985ecae732c1bcd4202643bff94adeb",
-  "notes": "1.2.1: один melancholy_studio.zip без версии в имени; проверка обновлений по текущему коммиту GitHub без устаревшего raw/main."
+  "sha256": "8914d65cba6084b25a9cbcf0f7756e044a0683cc32714797831893b83eabd340",
+  "notes": "1.2.2: без Color Attributes нет автоматически созданных карт и белого prelight. Ручные цвета и независимые настройки освещения сохраняются как в DragonFF."
 }
