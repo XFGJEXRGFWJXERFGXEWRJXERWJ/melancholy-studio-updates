@@ -3,7 +3,7 @@
   "addon": "melancholy_studio",
   "version": [
     1,
-    1,
+    2,
     0
   ],
   "blender_min": [
@@ -11,7 +11,7 @@
     2,
     0
   ],
-  "url": "https://raw.githubusercontent.com/XFGJEXRGFWJXERFGXEWRJXERWJ/melancholy-studio-updates/main/melancholy_studio_blender_1.1.0.zip",
-  "sha256": "1840f65ce133447951376589de93311f55751be49b65bc9c0b5e271f4fed11d2",
-  "notes": "Добавлена проверка и установка обновлений из GitHub. Сохранены исправления экспорта изменённой сетки и Edit Mode."
+  "url": "https://raw.githubusercontent.com/XFGJEXRGFWJXERFGXEWRJXERWJ/melancholy-studio-updates/main/melancholy_studio_blender_1.2.0.zip",
+  "sha256": "2873e6bb7cd38e8c99bb92566532be0892a34baa0a29c31d75ed2a919cb97f87",
+  "notes": "Материалы DragonFF: освещение, цвет, MatFX, отражения, UV Animation и pipeline. Исправлено обеление цветов вершин при экспорте изменённой сетки."
 }
